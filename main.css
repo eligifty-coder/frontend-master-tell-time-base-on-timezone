@@ -1,0 +1,101 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.containers{
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   background-image: url('./Image/morning.jpg');
+   color: #fff;
+   display: grid;
+}
+.container{
+   background: rgb(0, 0, 0, .3);
+}
+#mySpan{
+   font-size: 10px;
+}
+.time h2{
+   font-size: 55px !important;
+   font-weight: 900;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.location{
+   text-transform: capitalize;
+}
+
+.btn button{
+   text-align: center;
+   width: 60px;
+   height: 20px;
+   cursor: pointer !important;
+   border-radius: 20px;
+   outline: none;
+   border: none;
+   font-size: 10px;
+   font-weight: 400;
+   letter-spacing: 2px;
+   position: relative;
+}
+.btn button:hover{
+   background: rgb(255,255,255,.7);
+}
+.btn button i{
+   background: #000;
+   color: #fff;
+   border-radius: 50%;
+   width: 14px;
+   height: 14px;
+   margin-left: 2px;
+   text-align: center;
+}
+.flip{
+   background: #000 !important;
+   color: #fff;
+}
+.flip i{
+   background: #fff !important;
+   color: #000 !important ;
+}
+.container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   justify-items: center;
+   padding: 50px;
+   column-gap: 50px;
+}
+
+
+.btn{
+   margin-top: 90px;
+}
+.hide{
+   padding: 50px;
+   background: rgb(255,255,255,.7);
+   transition: all .5s ease;
+   display: none;
+}
+.show{
+   display: grid;
+}
+.hidediv{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   column-gap: 62px;
+   color: #000;
+   place-items: center;
+}
+.content h3{
+   font-size: 9px;
+   color: rgb(31, 51, 62);
+   text-transform: uppercase;
+}
+.content h1{
+   color: rgb(34, 84, 115);
+   font-size: 20px;
+}
